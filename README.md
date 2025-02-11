@@ -30,7 +30,7 @@ A añadir posteriormente
 
 A añadir posteriormente.
 
-## Contact
+## Contacto
 
 - [Oliver LinkedIn](https://www.linkedin.com/in/%C3%B3liver-garc%C3%ADa-rodr%C3%ADguez/)
 - [Oliver GitHub](https://github.com/oligarc)
