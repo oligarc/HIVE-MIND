@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@theme{
+          --color-hive-1: rgb(255 177 0);
+          --color-hive-2: rgb(255 215 0);
+          --color-hive-3: rgb(255 140 0);
+ 
+          --color-beige-panal: rgb(245 222 179);
+          --color-blanco-nectar: rgb(255 248 225);
+          --color-gris-rocoso:rgb(109 109 109);
+          --color-negro-abeja: rgb(29 29 29);
+      
+          --color-marron-cerra: rgb(199 106 39);
+          --color-naranja-calido:rgb(230 126 34);
+          --color-ocre-tierra: rgb(181 101 29);
+          --color-verde-nectar: rgb(163 198 68);
+       
+     
+          --color-fill-white: rgb(235 234 234);
+          --color-full-white:rgb(255 255 255);
+
+          --font-text-size-extra-small': 0.48rem;
+          --font-text-size-small: 0.56rem;
+          --font-text-size-h4: 0.64rem;
+          --font-text-size-parrafo: 0.64rem;
+          --font-text-size-botones: 1rem;
+          --font-text-size-h3: 1.04rem;
+          --font-text-size-h2: 1.68rem;
+          --font-text-size-h1: 2.56rem;
+        }
