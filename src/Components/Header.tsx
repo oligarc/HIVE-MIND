@@ -1,7 +1,8 @@
+import { NavHeaderProps } from "../types/interfaces"
 import Logo from "./Logo"
-import TextInput from "./TextInput"
+import SearchInput from "./SearchInput"
 
-function Header() {
+function Header({firstli,secondli,thirdli,fourthli} : NavHeaderProps) {
   return (
     <header>
         <div className="flex justify-between items-center">
@@ -10,11 +11,17 @@ function Header() {
             </div>
             <div>
                 <nav>
+                  <ul className="inline-flex space-x-8 text-2xl">
+                    <li><a href="#">{firstli}</a></li>
+                    <li><a href="#">{secondli}</a></li>
+                    <li><a href="#">{thirdli}</a></li>
+                    <li><a href="#">{fourthli}</a></li>
+                  </ul>
 
                 </nav>
             </div>
             <div>
-              <TextInput name="prueba" placeholder="¿Quieres ver lo que hacemos?" />
+              <SearchInput name="prueba" placeholder="Busca nuestra magia" />
             </div>
         </div>
     </header>
