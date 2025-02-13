@@ -1,91 +1,17 @@
 import './App.css'
 import Button from './Components/Button'
 import CustomerCardList from './Components/CardLists/CustomerCardList'
+import ProjectCardList from './Components/CardLists/ProjectCardList.tsx'
 import ServiceCardList from './Components/CardLists/ServiceCardList'
 import WorkerCardList from './Components/CardLists/WorkerCardList'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
+import Footer from './Components/Layouts/Footer'
+import Header from './Components/Layouts/Header'
+import customers from './data/customers.ts'
+import services from './data/services.ts'
+import workers from './data/workers.ts'
+import projects from './data/projects.ts'
 
 function App() {
-
-  const customers = [
-    {
-      opinion:'Mi experiencia con este servicio ha sido simplemente excepcional. Desde el primer momento, la atención al cliente fue amable, profesional y resolutiva.',
-      fullName:'Ana Romario',
-      imagen:'ana',
-      formato:'avif'
-    },
-    {
-      opinion:'Mi experiencia con este servicio ha sido simplemente excepcional. Desde el primer momento, la atención al cliente fue amable, profesional y resolutiva.',
-      fullName:'Ana Romario',
-      imagen:'ana',
-      formato:'avif'
-    },
-    {
-      opinion:'Mi experiencia con este servicio ha sido simplemente excepcional. Desde el primer momento, la atención al cliente fue amable, profesional y resolutiva.',
-      fullName:'Ana Romario',
-      imagen:'ana',
-      formato:'avif'
-    },
-    {
-      opinion:'Mi experiencia con este servicio ha sido simplemente excepcional. Desde el primer momento, la atención al cliente fue amable, profesional y resolutiva.',
-      fullName:'Ana Romario',
-      imagen:'ana',
-      formato:'avif'
-    },
-  ]
-
-  const workers = [
-    {
-      fullName:'Pepe Juan',
-      imagen:'pepe',
-      formato:'jpg'
-    },
-    {
-      fullName:'Pepe Juan',
-      imagen:'pepe',
-      formato:'jpg'
-    },
-    {
-      fullName:'Pepe Juan',
-      imagen:'pepe',
-      formato:'jpg'
-    },
-    {
-      fullName:'Pepe Juan',
-      imagen:'pepe',
-      formato:'jpg'
-    }
-  ]
-
-  const services = [
-    {
-      serviceName:'Diseño gráfico',
-      imagen:'graphic-design',
-      formato:'png'
-    },
-    {
-      serviceName:'Publicidad Digital',
-      imagen:'publicidad-digital',
-      formato:'png'
-    },
-    {
-      serviceName:'Publicidad Online',
-      imagen:'publicidad-online',
-      formato:'png'
-    },
-    {
-      serviceName:'Tienda Online',
-      imagen:'tienda-online',
-      formato:'png'
-    },
-    {
-      serviceName:'Posicionamiento web',
-      imagen:'web-positioning',
-      formato:'png'
-    },
-  ]
-  
 
   return (
     <>
@@ -104,12 +30,12 @@ function App() {
         <WorkerCardList workers={workers}/>
         {/*Probando listaServicios*/}
         <ServiceCardList servicios={services} />
-        {/*Probando footer*/}
+        {/*Probando listaProyectos*/}
+        <ProjectCardList projects={projects} />
         </div>
+         {/*Probando footer*/}
         <Footer />
       </div>
-      
-     
     </>
   )
 }

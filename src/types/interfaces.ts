@@ -39,12 +39,22 @@ export interface WorkerCardListProps{
     workers: WorkerCardProps[]
 }
 
-export interface serviceCardProps{
+export interface ServiceCardProps{
     serviceName:string,
     imagen:string,
     formato:string
 }
 
-export interface serviceCardListProps{
-    servicios:serviceCardProps[]
+export interface ServiceCardListProps{
+    servicios:ServiceCardProps[]
+}
+
+export interface ProjectCardProps{
+    projectName:string,
+    imagen:string
+    formato:string
+}
+
+export interface ProjectCardListProps{
+    projects:ProjectCardProps[]
 }

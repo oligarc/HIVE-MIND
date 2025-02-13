@@ -1,6 +1,6 @@
-import { NavHeaderProps } from "../types/interfaces"
-import Logo from "./Logo"
-import SearchInput from "./SearchInput"
+import { NavHeaderProps } from "../../types/interfaces"
+import Logo from "../Logo"
+import SearchInput from "../SearchInput"
 
 function Header({firstli,secondli,thirdli,fourthli} : NavHeaderProps) {
   return (

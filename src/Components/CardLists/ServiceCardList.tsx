@@ -1,9 +1,10 @@
-import { serviceCardListProps } from "../../types/interfaces"
+import { ServiceCardListProps } from "../../types/interfaces"
 import ServiceCard from "../Cards/ServiceCard"
 
-function ServiceCardList({ servicios }: serviceCardListProps) {
+function ServiceCardList({ servicios }: ServiceCardListProps) {
   return (
-    <>  
+    <>
+    <div className="grid grid-cols-3">
       {servicios.map((servicio) => (
         <ServiceCard
         serviceName={servicio.serviceName}
@@ -11,6 +12,7 @@ function ServiceCardList({ servicios }: serviceCardListProps) {
         formato={servicio.formato}
          />
       ))}
+      </div>
     </>
   )
 }

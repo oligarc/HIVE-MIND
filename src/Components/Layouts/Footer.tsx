@@ -1,4 +1,4 @@
-import Networks from "./Networks"
+import Networks from "../Networks"
 
 function Footer() {
     return (
