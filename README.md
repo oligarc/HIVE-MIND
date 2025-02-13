@@ -4,10 +4,6 @@
 
 Para este proyecto nos hemos centrado en el diseño y desarrollo de una página web de una empresa agencia de marketing cuyo foco de actividad son varias como la realización de spots televisivos, videoclips de grupos musicales, campañas publicitarias y un largo devenir de futuros proyectos.
 
-## Vista previa
-
-Aquí añadiré capturas del sistema de diseño y de cómo se va viendo la web para que los usuarios puedan verlo antes de descargar el proyecto e iniciarlo en su máquina local.
-
 ## Tecnologías que usaremos
 
 - **Figma:** Para el diseño inicial, así como definición de variables que usaremos posteriormente en nuestro código.
