@@ -38,3 +38,13 @@ export interface CustomerCardListProps{
 export interface WorkerCardListProps{
     workers: WorkerCardProps[]
 }
+
+export interface serviceCardProps{
+    serviceName:string,
+    imagen:string,
+    formato:string
+}
+
+export interface serviceCardListProps{
+    servicios:serviceCardProps[]
+}

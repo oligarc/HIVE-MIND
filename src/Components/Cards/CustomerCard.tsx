@@ -10,7 +10,7 @@ function CustomerCard({ opinion, fullName, imagen, formato }: CustomerCardProps)
 
       <div className="w-1/3">
         <img
-          src={`/${imagen}.${formato}`}
+          src={`/clientes/${imagen}.${formato}`}
           alt={`Cliente: ${imagen}`}
           className="w-full h-full object-cover"
         />
