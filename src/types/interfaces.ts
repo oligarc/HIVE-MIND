@@ -24,3 +24,17 @@ export interface CustomerCardProps{
     imagen:string,
     formato:string
 }
+
+export interface WorkerCardProps{
+    fullName:string,
+    imagen:string,
+    formato:string
+}
+
+export interface CustomerCardListProps{
+    customers: CustomerCardProps[]
+}
+
+export interface WorkerCardListProps{
+    workers: WorkerCardProps[]
+}
