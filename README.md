@@ -20,15 +20,34 @@ Aquí añadiré capturas del sistema de diseño y de cómo se va viendo la web p
 
 ### Requisitos antes de comenzar
 
-Hay que añadir lo que necesitamos tener como Node.js
+Básicamente lo único que vamos a necesitar es tener instalado Node.js en nuestro sistema.
 
 ### Setup
 
-A añadir posteriormente
+1. Clona el repositorio
+   Abre una terminal y ejecuta el siguiente comando:
+   git clone https://github.com/oligarc/HIVE-MIND.git
+   Entra con cd HIVE-MIND
+
+2. Instalar dependencias
+   Una vez dentro del proyecto ejecuta:
+   npm install
+   Este comando instalará todas las dependencias que encontramos en nuestro package.json
+
+3. Iniciar el servidor de desarrollo
+   Para arrancar la aplicación en modo desarrollo ejecuta:
+   npm run dev
+   Esto iniciará el servidor de desarrollo de Vite, y podrás acceder a la aplicación en tu navegador en la dirección que se indique en la terminal
 
 ## Distribución del trabajo
 
 A añadir posteriormente.
+
+## Link a Figma
+
+Para visitar nuestro sistema de diseño utilizado en la aplicación Figma, puedes hacerlo presionando en el siguiente [enlace](https://www.figma.com/design/bdIZ0pCiOjnAjmVeC2xeO0/BOCETO-interfaces-hive-mind?node-id=48-2&p=f&t=mzS2Sx5OuNGslpnN-0)
+
+Por favor, sentíos libres a la hora de comentar y darnos feedback. Será de mucha ayuda
 
 ## Contacto
 
