@@ -38,10 +38,42 @@ Básicamente lo único que vamos a necesitar es tener instalado Node.js en nuest
 
 ## Diseño de componentes
 
-A continuación os dejamos una primera vista de nuestros componentes antes de que clonéis el repositorio o bajéis el código.
+A continuación, os dejamos una primera vista de nuestros componentes antes de que clonéis el repositorio o bajéis el código.
 
+### Logo
+![Logo](public/hive-logo.png)
 
+### Search Input
+![Search Input](public/screenshots/Search_Input.png)
 
+### Header
+![Header](public/screenshots/Header.png)
+
+### Botón
+![Botón](public/screenshots/BotonC.png)
+
+### Botón (Hover)
+![Botón Hover](public/screenshots/Boton_hover.png)
+
+### Customer Card
+![Customer Card](public/screenshots/CustomerCard.png)
+
+### Worker Card
+![Worker Card](public/screenshots/WorkerCard.png)
+
+### Service Card
+![Service Card](public/screenshots/ServiceCard.png)
+
+### Service Card
+![Project Card](public/screenshots/ProjectCard.png)
+
+Nótese que Whakoom.com no es nuestro proyecto y simplemente lo hemos puesto para referenciar mejor el componente.
+
+### Network Services
+![Network Services](public/screenshots/NetworkServices.png)
+
+### Footer
+![Footer](public/screenshots/Footer.png)
 
 
 ## Distribución del trabajo

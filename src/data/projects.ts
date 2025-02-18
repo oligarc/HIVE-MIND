@@ -1,8 +1,8 @@
 const projects = [
     {
         projectName:'Whakoom',
-        imagen:'',
-        formato:''
+        imagen:'Whakoom',
+        formato:'png'
     },
     {
         projectName:'Placeholder',
