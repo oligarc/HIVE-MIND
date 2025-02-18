@@ -35,9 +35,27 @@ Básicamente lo único que vamos a necesitar es tener instalado Node.js en nuest
    npm run dev
    Esto iniciará el servidor de desarrollo de Vite, y podrás acceder a la aplicación en tu navegador en la dirección que se indique en la terminal
 
+
+## Diseño de componentes
+
+A continuación os dejamos una primera vista de nuestros componentes antes de que clonéis el repositorio o bajéis el código.
+
+
+
+
+
 ## Distribución del trabajo
 
-A añadir posteriormente.
+Wafae:
+ - Sistema de diseño en Figma.
+ - Elección de fuentes y paleta de colores.
+
+Óliver:
+ - Diseño de componentes.
+ - Exportación de estilos a Tailwind CSS.
+ - Implementación de componentes en React.
+ - Organización y estructuración del código.
+ - Readme.
 
 ## Link a Figma
 
